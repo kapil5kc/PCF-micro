@@ -20,8 +20,8 @@ pipeline {
                                   usernameVariable: 'USERNAME',
                                   passwordVariable: 'PASSWORD']]) {
 
-                    sh '/usr/local/bin/cf login -a https://api.sys.parivartandev1.com -u $USERNAME -p $PASSWORD'
-                    sh '/usr/local/bin/cf push'
+                    sh 'cf login -a https://api.sys.parivartandev1.com -u $USERNAME -p $PASSWORD'
+                    sh 'cf push'
                 }
             }
 
