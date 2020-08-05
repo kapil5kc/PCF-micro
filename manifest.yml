@@ -1,6 +1,6 @@
 applications:
 - name: service-registry
-  path: http://10.166.16.56:7688/artifactory/validation-maven-dev/test-kapil/service-registry-0.0.1-SNAPSHOT.jar #./target/service-registry-0.0.1-SNAPSHOT.jar
+  path: ./target/service-registry-0.0.1-SNAPSHOT.jar
   random-route: true
 #for fixed route
 #  routes:
